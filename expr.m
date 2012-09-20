@@ -5,6 +5,7 @@
 //  Created by yaolong3 on 12-9-20.
 //  Copyright (c) 2012年 yaolong3. All rights reserved.
 //
+//  http://weibo.com/yaolong3
 
 /*
  http://weibo.com/1915548291/yCJDv91q4
