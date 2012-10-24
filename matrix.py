@@ -15,9 +15,10 @@ http://weibo.com/1269043140/z1WXNjTnd
 
 import sys
 
-###三阶矩阵快速幂乘
-
 A = [[0, 1, 0], [0, 0, 1], [1, 1, 1]]
+###三阶矩阵快速幂乘
+###A * [[x], [y], [z]] = [[y], [z], [x+y+z]]
+###g(6) = A*A*A*A*[[x], [y], [z]] = (A*A)*(A*A)*[[x], [y], [z]]
 
 def mul(a, b):
     assert(len(a[0]) == len(b))
