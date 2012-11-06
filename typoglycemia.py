@@ -18,7 +18,7 @@ def MakeTypoglycemia(text):
     bi = 0
     flag = False
     while i < len(c_text):
-        if 97 <= ord(c_text[i]) <= 122 or 65 <= ord(c_text[i]) <= 90:
+        if c_text[i].isalpha(): #97 <= ord(c_text[i]) <= 122 or 65 <= ord(c_text[i]) <= 90:
             if flag:
                 if bi <= i - 3:
                     j =  random.randint(bi + 1, i - 1)
